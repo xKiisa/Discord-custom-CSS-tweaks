@@ -8,7 +8,34 @@
 .stickerButton-1-nFh2.button-3BaQ4X.button-2fCJ0o.contents-3NembX {
   display: none;
 }
-/* Remove Nitro Tab */
+/* Remove Nitro Tab from Direct Messages */
 li.container-32HW5s.channel-1Shao0:nth-of-type(2) > .linkButton-2NshQj.interactive-iyXY_x.interactive-26HRN_ {
   display: none;
+}
+/* Remove Guild seperator on sidebar */
+.guildSeparator-a4uisj{
+    display: none;
+}
+/* Smaller side bar */
+.closedFolderIconWrapper-3tRb2d {
+    padding: 5px;
+}
+.icon-3AqZ2e {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+}
+.guilds-2JjMmN {
+    width: 65px;
+    background-color: transparent;
+}
+.platform-win .scroller-3X7KbA {
+    padding: 0;
+}
+/* Transparent folder and Direct Messages button */
+.childWrapper-1j_1ub {
+    background-color: transparent !important;
+}
+.folderIconWrapper-1oRIZr {
+    background-color: transparent !important;
 }
