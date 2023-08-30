@@ -1,0 +1,14 @@
+/* Some tweaks to change various things in Discord's interface. Made by xKiisa /*
+
+/* Hide Nitro icon on profile banners */
+.clickable-_6T6Od.premiumIconWrapper-32h0Ri {
+  display: none;
+}
+/* Hide Stickers Button in the chatbox */
+.stickerButton-1-nFh2.button-3BaQ4X.button-2fCJ0o.contents-3NembX {
+  display: none;
+}
+/* Remove Nitro Tab */
+li.container-32HW5s.channel-1Shao0:nth-of-type(2) > .linkButton-2NshQj.interactive-iyXY_x.interactive-26HRN_ {
+  display: none;
+}
