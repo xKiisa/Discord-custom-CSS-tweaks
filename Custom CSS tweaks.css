@@ -1,41 +1,50 @@
 /* Some tweaks to change various things in Discord's interface. Made by xKiisa /*
 
 /* Hide Nitro icon on profile banners */
-.clickable-_6T6Od.premiumIconWrapper-32h0Ri {
-  display: none;
+.clickable_eece8d.premiumIconWrapper__83620 {
+    display: none;
 }
 /* Hide Stickers Button in the chatbox */
-.stickerButton-1-nFh2.button-3BaQ4X.button-2fCJ0o.contents-3NembX {
-  display: none;
+.stickerButton__8af38 {
+    display: none;
 }
 /* Remove Nitro Tab from Direct Messages */
-li.container-32HW5s.channel-1Shao0:nth-of-type(2) > .linkButton-2NshQj.interactive-iyXY_x.interactive-26HRN_ {
-  display: none;
+li.container__8759a.channel_c21703:nth-of-type(2) {
+    display: none;
+}
+/* Remove the Shop Tab */
+li.container__8759a.channel_c21703:nth-of-type(3) {
+    display: none;
 }
 /* Remove Guild seperator on sidebar */
-.guildSeparator-a4uisj{
+.guildSeparator_dcb3cc {
     display: none;
 }
 /* Smaller side bar */
-.closedFolderIconWrapper-3tRb2d {
+.closedFolderIconWrapper__7321f {
     padding: 5px;
 }
-.icon-3AqZ2e {
+.blobContainer__5ee50 .wrapper__3af0b > .svg_ad7356 {
+    position: absolute;
+    left: 6px;
     width: 35px;
     height: auto;
     border-radius: 50%;
 }
-.guilds-2JjMmN {
+.guilds__2b93a.wrapper_a7e7a8 {
     width: 65px;
     background-color: transparent;
 }
-.platform-win .scroller-3X7KbA {
+.scrollerBase_dc3aa9.none__51a8f.scroller__3d071 {
     padding: 0;
 }
 /* Transparent folder and Direct Messages button */
-.childWrapper-1j_1ub {
+.childWrapper__01b9c {
     background-color: transparent !important;
 }
-.folderIconWrapper-1oRIZr {
+.folderIconWrapper__72239 {
+    background-color: transparent !important;
+}
+.folder__17546 {
     background-color: transparent !important;
 }
