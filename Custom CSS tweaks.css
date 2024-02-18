@@ -1,4 +1,4 @@
-/* Some tweaks to change various things in Discord's interface. Made by xKiisa /*
+/* Some tweaks to change various things in Discord's interface. /*
 
 /* Hide Nitro icon on profile banners */
 .clickable_eece8d.premiumIconWrapper__83620 {
@@ -9,34 +9,16 @@
     display: none;
 }
 /* Remove Nitro Tab from Direct Messages */
-li.container__8759a.channel_c21703:nth-of-type(2) {
+[href="/store"] {
     display: none;
 }
 /* Remove the Shop Tab */
-li.container__8759a.channel_c21703:nth-of-type(3) {
+[href='/shop'] {
     display: none;
 }
 /* Remove Guild seperator on sidebar */
 .guildSeparator_dcb3cc {
     display: none;
-}
-/* Smaller side bar */
-.closedFolderIconWrapper__7321f {
-    padding: 5px;
-}
-.blobContainer__5ee50 .wrapper__3af0b > .svg_ad7356 {
-    position: absolute;
-    left: 6px;
-    width: 35px;
-    height: auto;
-    border-radius: 50%;
-}
-.guilds__2b93a {
-    width: 65px;
-    background-color: transparent;
-}
-.scrollerBase_dc3aa9.none__51a8f.scroller__3d071 {
-    padding: 0;
 }
 /* Transparent folder and Direct Messages button */
 .childWrapper__01b9c {
