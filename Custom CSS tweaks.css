@@ -12,21 +12,56 @@
 [href="/store"] {
     display: none;
 }
-/* Remove the Shop Tab */
+/* Remove the Shop Tab from Direct Messages */
 [href='/shop'] {
     display: none;
 }
 /* Remove Guild seperator on sidebar */
-.guildSeparator_dcb3cc {
+.guildSeparator__75928 {
     display: none;
 }
-/* Transparent folder and Direct Messages button */
-.childWrapper__01b9c {
-    background-color: transparent !important;
+/*-- Smaller side bar section start -- */
+/* Closed folder icon padding */
+.closedFolderIconWrapper__722d5 {
+    padding: 5px; 
 }
-.folderIconWrapper__72239 {
-    background-color: transparent !important;
+/* Left sidebar size */
+.guilds__2b93a {
+    width: 61px;
 }
-.folder__17546 {
-    background-color: transparent !important;
+/* Guild icon size */
+.svg__34dd4 {
+    position: absolute;
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
 }
+/* Folder offset and transparent Direct Messages button */
+.expandedFolderBackground_b1385f { 
+    position: absolute;
+    width: 38px;
+    top: 7px;
+    bottom: 20px;
+}
+.childWrapper_a6ce15 {
+    position: absolute;
+    background-color: transparent;
+    border-radius: 50%;
+}
+/* Slightly increase folder size
+div.wrapper__832f2 > .listItem__48528 > div > .wrapper__9916c > .svg__34dd4 {
+    width: 38px;
+    height: 38px;
+}
+/* Guild Icon Offset */
+.blobContainer_c44493 > .wrapper__9916c > .svg__34dd4 {
+    left: 2px !important;
+}
+/* DM and call icon offset */
+.listItem__48528 > .listItemWrapper__3d465 > .wrapper__9916c {
+    left: 2px !important;
+}
+.upperBadge__00ad0 {
+    padding: 5px;
+}
+/*-- Smaller side bar section end -- */
