@@ -43,12 +43,7 @@
     top: 7px;
     bottom: 20px;
 }
-.childWrapper_a6ce15 {
-    position: absolute;
-    background-color: transparent;
-    border-radius: 50%;
-}
-/* Slightly increase folder size
+/* Slightly increase folder size */
 div.wrapper__832f2 > .listItem__48528 > div > .wrapper__9916c > .svg__34dd4 {
     width: 38px;
     height: 38px;
@@ -62,6 +57,13 @@ div.wrapper__832f2 > .listItem__48528 > div > .wrapper__9916c > .svg__34dd4 {
     left: 2px !important;
 }
 .upperBadge__00ad0 {
-    padding: 5px;
+    top: -2px;
+    left: 21px;
+    scale: 0.8;
+}
+.lowerBadge_e89e22 {
+    top: 20px;
+    left: 21px;
+    scale: 0.8;
 }
 /*-- Smaller side bar section end -- */
