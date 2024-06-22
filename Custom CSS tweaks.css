@@ -8,6 +8,10 @@
 .stickerButton_d0696b {
     display: none;
 }
+/* Hide Activities Button in call interface */
+.buttonContainer_b6e12f9 {
+    display: none;
+}
 /* Remove Nitro Tab from Direct Messages */
 [href="/store"] {
     display: none;
