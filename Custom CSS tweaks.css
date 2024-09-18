@@ -24,6 +24,10 @@
 .guildSeparator_d0c57e {
     display: none;
 }
+/* Remove App Launcher in chat */
+.channelAppLauncher_df39bd {
+    display: none;
+}
 /*-- Smaller side bar section start -- */
 /* Closed folder icon padding */
 .closedFolderIconWrapper_bc7085 {
