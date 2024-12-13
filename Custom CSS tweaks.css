@@ -1,5 +1,3 @@
-/* Some tweaks to change various things in Discord's interface. /*
-
 /* Hide Nitro icon on profile banners */
 .premiumIconWrapper_c3e427 {
     display: none;
@@ -35,14 +33,22 @@
 }
 /* Left sidebar size */
 .guilds_a4d4d9 {
-    width: 61px;
+    width: 50px;
+    background-color: transparent;
 }
-/* Guild icon size */
-.svg_c5f96a {
-    position: absolute;
-    width: 35px;
+/* Guild icons */
+.guilds_a4d4d9 .listItem_c96c45 {
+    width: 50px;
+}
+.guilds_a4d4d9 .listItem_c96c45 .wrapper_c5f96a .icon_f90abb {
+    width: 30px;
     height: auto;
     border-radius: 50%;
+}
+.circleIconButton_db6521 {
+    transform: scale(0.7) !important;
+    border-radius: 50%;
+
 }
 /* Folder offset and transparent Direct Messages button */
 .expandedFolderBackground_bc7085 { 
@@ -51,27 +57,62 @@
     top: 7px;
     bottom: 20px;
 }
-/* Slightly increase folder size */
-.listItem_c96c45 > div > .wrapper_c5f96a > .svg_c5f96a {
+/* Discord logo Icon */
+.childWrapperNoHoverBg_f90abb.childWrapper_f90abb {
+    background: #232234;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: scale(0.8) !important; 
+}
+.selected_dfb2f8.listItemWrapper_dfb2f8 > .wrapper_c5f96a > .svg_c5f96a .childWrapper_f90abb {
+    background-color: #f75cbd !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: scale(0.8) !important; 
+}
+.childWrapperNoHoverBg_f90abb.childWrapper_f90abb:hover {
+    background-color: #f75cbd !important;
+}
+/* Guild folders */
+
+.folder_bc7085 {
+    background-color: transparent;
+}
+.folder_bc7085:hover {
+    background-color: transparent;
+}
+.folderIconWrapper_bc7085 {
+    background-color: transparent !important;
+    border-radius: 0;
+}
+.closedFolderIconWrapper_bc7085 {
+    padding: 8px;
+}
+.expandedFolderBackground_bc7085 {
     width: 38px;
-    height: 38px;
+    top: 4px;
+    bottom: 13px;
+    left: 6px;
 }
-/* Guild Icon Offset */
-.blobContainer_a5ad63 > .wrapper_c5f96a > .svg_c5f96a {
-    left: 2px !important;
+.expandedFolderBackground_bc7085.collapsed_bc7085 {
+    background-color: transparent !important;
+    box-shadow: none;
 }
-/* DM and call icon offset */
-.listItem_c96c45 > .listItemWrapper_dfb2f8 > .wrapper_c5f96a {
-    left: 2px !important;
+.folder_bc7085 {
+    background-color: transparent !important;
+    transform: scale(0.8) !important; 
 }
+/* DM and call icon */
 .upperBadge_c5f96a {
-    top: -2px;
-    left: 21px;
-    scale: 0.8;
+    right: 6px;
+    top: 6px;
+    transform: none !important;
 }
 .lowerBadge_c5f96a {
-    top: 20px;
-    left: 21px;
-    scale: 0.8;
+    right: 6px;
+    bottom: 6px;
+    transform: none !important;
 }
 /*-- Smaller side bar section end -- */
